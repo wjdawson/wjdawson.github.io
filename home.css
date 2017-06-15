@@ -71,7 +71,7 @@ header.main {
     z-index: 99;
 }
 p {
-	text-align: center;
+
 }
 #animation {
 	height: 500px;
@@ -81,4 +81,32 @@ p {
 	list-style: none;
     margin: 0;
     padding: 0;
+}
+#content_container {
+	zoom: 1;
+    position: static;
+    width: 100%;
+    max-width: 1048px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+#title {
+	font-size: 60px;
+    font-weight: 300;
+    line-height: 1.25;
+    width: 100%;
+    text-align: center;
+    margin: 80px auto;
+ 
+}
+#title_wrapper {
+	zoom: 1;
+    position: static;
+    width: 100%;
+    max-width: 1048px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+#footer {
+    height: 100px;
 }

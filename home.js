@@ -4,9 +4,9 @@ var i = 0;
 
 $(document).ready(function () {
 	var tid = setInterval(animate_bg, 5000);
-	 $( "#animation" ).animate({
-          height: "400px"
-        }, 2000 );
+	 // $( "#animation" ).animate({
+  //         height: "400px"
+  //       }, 2000 );
 });
 
 function animate_bg() {
