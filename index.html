@@ -21,10 +21,12 @@
 	</header>
 	<body>
 		<div id = "animation">
-			<div class = "wrapper">
-				<div id="typer">
-
-				</div>
+			<div class = "wrapper" id = "typewriter_wrapper">
+				<h1 id="typer_header" >
+  					<a href="" class="typewrite" data-period="2000" data-type='[ "48 pilot units supported!", "NaloxBox will help prevent opiate overdoses.", "We are looking for partners!"]' id="typer_txt">
+    					<span class="wrap"></span>
+  					</a>
+				</h1>
 			</div>
 		</div>
 		<div id="text_all_wrapper">
@@ -47,10 +49,48 @@
 				</p><br>
 			</div>
 
-			<img src="">
+			<img src=""> </img>
+
+			<div id="suggestion_wrapper">
+				<div id="suggestion_list">
+					<h2 id="list_title">NaloxBox welcomes your suggestions</h2>
+					<ol id = "suggestions">
+						<li>What do you think about the idea of providing naloxone and rescue masks in public places so that bystander rescuers can save an opiate overdose victim?</li>
+						<li>What do you think about the box design?</li>
+						<li>How would you change the design of NaloxBox?</li>
+						<li>Where should NaloxBoxes be supplied?</li>
+						<li>Other thoughts or suggestions?</li>	
+					</ol>
+				</div>
+
+				<div id="suggestion_form">
+					<div id="inside_border"> 
+						<form id="form1" action="https://formspree.io/naloxboxproject@gmail.com" method="POST">
+						    <textarea  rows="4" cols="100" name="message" placeholder="Your suggestions..."></textarea>
+  							<button id="bt1" class = "button" type="submit">Send
+	  							<svg width="200" height="50">
+								    <line class="top-left" x1="-100" y1="0" x2="100" y2="0" />
+								    <line class="top-right" x1="100" y1="0" x2="300" y2="0" />
+								    <line class="left-top" x1="0" y1="-25" x2="0" y2="25" />
+								    <line class="left-bottom" x1="0" y1="25" x2="0" y2="75" />
+								    <line class="bottom-left" x1="-100" y1="50" x2="100" y2="50" />
+								    <line class="bottom-right" x1="100" y1="50" x2="300" y2="50" />
+								    <line class="right-top" x1="200" y1="-25" x2="200" y2="25" />
+								    <line class="right-bottom" x1="200" y1="25" x2="200" y2="75" />
+	   							</svg>
+	   						</button>
+						</form>
+					</div>
+				</div>
+			</div>
 		</div>
-		<div id="footer">
 			
+
+
+		<div id="footer">
+			<div id="wrapper_footer">
+				<p id="email">e: naloxboxproject@gmail.com</p>
+			</div>
 		</div>
 	</body>
 
