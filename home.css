@@ -1,6 +1,7 @@
 html {
 	margin:0;
-	 font-family: "omnes-pro",helvetica,sans-serif;
+	font-family: "omnes-pro",helvetica,sans-serif;
+    overflow-y: scroll;
 }
 
 body {
@@ -279,7 +280,7 @@ svg {
     text-align: center;
 }
 #email {
-    float: right;
+    float: left;
     position: relative;
     display: box;
     margin-top: 40px;

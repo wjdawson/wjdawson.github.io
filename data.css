@@ -15,6 +15,14 @@ body {
     padding: 0 20px;
 
 }
+#content_container {
+    zoom: 1;
+    position: static;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
 #naloxboxlogo{
 	text-decoration: none;
 	color: #34343f;
@@ -62,7 +70,7 @@ li a  {
     transition: border 500ms ease; 
 }
 li a:hover {
-  	border-bottom: 2px solid rgba(238,130,238, 1);
+  	border-bottom: 2px solid rgba(255,80,80, 1);
 }
 ::selection {
   
@@ -75,5 +83,29 @@ header.main {
     z-index: 99;
 }
 p {
-	text-align: center;
+	text-align: left;
+}
+#data_points {
+    zoom: 1;
+    position: static;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: left;
+    list-style: none;
+    color: #ccc;
+}
+#data_points li {
+    position: relative;
+    font: bold italic 45px/1.5 Helvetica, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+#data_points li p {
+  font: 12px/1.5 Helvetica, sans-serif;
+  padding-left: 60px;
+  color: #555;
+}
+span {
+  position: absolute;
 }

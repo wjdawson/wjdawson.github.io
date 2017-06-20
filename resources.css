@@ -62,7 +62,7 @@ li a  {
     transition: border 500ms ease; 
 }
 li a:hover {
-  	border-bottom: 2px solid rgba(238,130,238, 1);
+  	border-bottom: 2px solid rgba(255,80,80, 1);
 }
 ::selection {
   
